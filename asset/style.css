@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    border: 0;
     list-style:none;
 }
 @font-face {
@@ -117,7 +116,7 @@ body{
     padding-top: 45px;
 }
 .item1 h3{
-    margin-top: 55px;
+    margin-top: 45px;
     font-size: 15px;
     color:rgb(176, 176, 176)
 }
