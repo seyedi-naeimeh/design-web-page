@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style:none;
+}
+@font-face {
+    font-family:iranSans ;
+    src: url('/fonts/IRANSansWeb.woff')format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:iranSans ;
+    src: url('/fonts/IRANSansWeb_Bold.woff')format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+body{
+    direction: rtl;
+    font-family: iranSans;
+    background-color:white;
+    list-style: none;
+    
+    
+}
+.top{
+    border-top: rgb(69, 161, 50) 10px solid;
+    
+}
+
+#nav{
+    background-color:rgb(242, 242, 242);
+    height: 50px;
+    border: 5px white solid;
+    position: fixed;
+    width: 100%;
+    
+    
+}
+#logo{
+    padding-left: 10px;
+}
+#nav span{
+    float:right;
+    width: 30px;
+    height: 30px;
+    background-image: url('/imgs/menu.png');
+    background-color: rgb(69, 161, 50);
+    margin:10px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+#nav ul{
+    background-color: white;
+    display: none;
+    position: absolute;
+    width: 100%;
+    top:51px;
+}
+#nav li{
+    line-height:2.5em ;
+}
+#nav li:nth-child(5){
+    margin-right: auto;
+    background-color: green;
+    margin-left: 85px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    
+
+}
+
+#nav a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    padding-right: 20px;
+    border-bottom: 1px solid gray;
+    transition: 0.2s;
+}
+#nav a:hover{
+    background-color: green;
+    color: white;
+}
+
+#header{
+    color: black;
+    padding-top: 65px;
+  
+    text-align: center;
+    
+   
+}
+
+#header h1{
+    font-size: 20px;
+    color: rgb(87, 87, 87)
+}
+.item1{
+    margin:15px auto;
+    text-align: center;
+    background-color:rgb(255, 202, 29);
+    max-width: 380px;
+    border-radius: 50%;
+    border:2px solid;
+    border: hidden;
+    width: 135px;
+    height: 135px;
+}
+.item1 img{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 45px;
+}
+.item1 h3{
+    margin-top: 55px;
+    font-size: 15px;
+    color:rgb(176, 176, 176)
+}
+
+#header h2{
+    color: rgb(69, 161, 50);
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.item{
+    margin:25px auto;
+    text-align: center;
+    background-color: white;
+    max-width: 380px;
+    border-radius: 20px;
+    border:2px solid;
+    border: hidden;
+    width: 200px;
+    height: 100px;
+    
+
+}
+.item:hover{
+    border-bottom: rgb(69, 161, 50) 10px inset;
+   
+    
+}
+.item img{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 25px;
+}
+.item h3{
+    color: rgb(69, 161, 50);
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+}
+#footer .wrapper {
+    background-color:rgb(242, 242, 242);
+    margin-top: 75px;
+}
